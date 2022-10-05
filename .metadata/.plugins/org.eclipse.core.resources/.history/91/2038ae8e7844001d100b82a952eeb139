@@ -1,0 +1,8 @@
+package com.koreait.web.servlet;
+
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet("/calc")
+public class MyServlet7 {
+
+}

@@ -1,0 +1,20 @@
+package com.koreait.web.servlet;
+
+import javax.servlet.http.HttpServlet;
+
+public class MyServlet3 extends HttpServlet{
+
+	
+/*
+ * request 	:  /hello3
+ * response :  /1 : hello servlet 
+ * 				2 : hello servlet 
+ * 				3 : hello servlet
+ * 				....
+ * 				100 : hello servlet 
+ * 
+ */
+	
+	
+	
+}
