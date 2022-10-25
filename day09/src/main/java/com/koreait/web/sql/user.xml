@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<mapper namespace="User">
+	<select id="checkId" parameterType="string"  resultType="_int">
+	 	SELECT count(*) FROM TBL_USER tu  WHERE USERID = #{userid}
+	</select>
+	
+	<insert id="join" parameterType="com.koreait.web.beans.UserBean">
+		INSERT INTO TBL_USER 
+			VALUES(#{userid}, #{userpw}, #{username}, #{usergender}, #{userphone})
+	</insert>
+	
+	<select id="login" parameterType="hashmap" resultType="com.koreait.web.beans.UserBean">
+		SELECT * FROM TBL_USER tu  WHERE USERID = #{userid} AND userpw = #{userpw}
+	</select>
+	
+</mapper>
+
+
+
+

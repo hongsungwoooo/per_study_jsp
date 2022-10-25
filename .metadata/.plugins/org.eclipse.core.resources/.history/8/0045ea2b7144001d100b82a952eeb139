@@ -1,5 +1,0 @@
-package com.koreait.web.servlet.filter;
-
-public class CharactorEncodingFilter extends Filter {
-
-}

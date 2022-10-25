@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+C:\0803_gb_hsw\workspace.git\per_study_jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2668428404.index
+\day05\src\main\java
+C:\0803_gb_hsw\workspace.git\per_study_jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2173105436.index
+\day04\src\main\java
+C:\0803_gb_hsw\workspace.git\per_study_jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3875799677.index
+\day04\src\main\java
+C:\0803_gb_hsw\workspace.git\per_study_jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1621281086.index
+\day05\src\main\java
+C:\0803_gb_hsw\workspace.git\per_study_jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3901663803.index
+\day06\src\main\java
+C:\0803_gb_hsw\workspace.git\per_study_jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\859345594.index
+\day06\src\main\java
+C:\0803_gb_hsw\workspace.git\per_study_jsp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1565613673.index
+\day05\src\main\java
