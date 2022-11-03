@@ -33,4 +33,19 @@
   <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/day12-config" deployDir="wtpwebapps" hostname="localhost" id="day12" name="day12" runtime-id="day01" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="2">
     <list key="modules" value0="day12::org.eclipse.jst.jee.server:day12::jst.web::4.0"/>
   </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/ums-config" deployDir="wtpwebapps" hostname="localhost" id="ums" name="ums" runtime-id="day01" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="2">
+    <list key="modules" value0="ums::org.eclipse.jst.jee.server:ums::jst.web::4.0"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/day14-config" deployDir="wtpwebapps" hostname="localhost" id="day14" name="day14" runtime-id="day01" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="2">
+    <list key="modules"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/board_mvc-config" deployDir="wtpwebapps" hostname="localhost" id="board_mvc" name="board_mvc" runtime-id="day01" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
+    <list key="modules" value0="board_mvc::org.eclipse.jst.jee.server:board_mvc::jst.web::4.0"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/withpill-config" deployDir="wtpwebapps" hostname="localhost" id="withpill" name="withpill" runtime-id="day01" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="5">
+    <list key="modules" value0="withpill_1.0.1.0::org.eclipse.jst.jee.server:withpill_1.0.1.0::jst.web::4.0" value1="day10::org.eclipse.jst.jee.server:day10::jst.web::4.0"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/day01 at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="day01 at localhost" name="day01 at localhost" runtime-id="day01" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="withpill_1.0.1.0::org.eclipse.jst.jee.server:withpill_1.0.1.0::jst.web::4.0" value1="day10::org.eclipse.jst.jee.server:day10::jst.web::4.0"/>
+  </server>
 </servers>

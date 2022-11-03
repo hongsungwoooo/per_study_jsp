@@ -8,6 +8,6 @@
 </head>
 <body>
 	<a href="app/user/joinview.jsp">회원가입</a><br>
-	<a>로그인</a>
+	<a href="${pageContext.request.contextPath}/user/UserLogin.us">로그인</a>
 </body>
 </html>
