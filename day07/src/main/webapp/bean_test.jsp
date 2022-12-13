@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:useBean class="com.koreait.web.beans.MemberBean" id="member" />
+	<jsp:useBean class="com.withpill.web.beans.MemberBean" id="member" />
 	<jsp:setProperty property="name" name="member" value="김자바"/>
 	<jsp:setProperty property="age" name="member" value="20"/>
 	

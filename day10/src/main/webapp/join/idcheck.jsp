@@ -1,4 +1,4 @@
-<%@page import="com.koreait.web.dao.UserDAO"%>
+<%@page import="com.withpill.web.dao.UserDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%

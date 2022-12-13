@@ -9,7 +9,7 @@
 <body>
 	<form action="/user/UserJoin.us" method="post">
 		<p>
-			아이디 <input type="text" name="userid">
+			아이디 <input type="text" name="userId">
 		</p>
 		<p>
 			비밀번호 <input type="password" name="userpw">

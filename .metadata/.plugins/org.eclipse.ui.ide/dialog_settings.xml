@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
 	</section>
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\0803_gb_hsw\jsp팀프로젝트\1117최종\withPill_first4"/>
+			<item value="C:\0803_gb_hsw\jsp팀프로젝트\1115"/>
+			<item value="C:\0803_gb_hsw\jsp팀프로젝트\새 폴더\LEARN-JSP-37be56b3c369ea8b958eed5884ddc3d5a7ce74fd\LEARN-JSP-37be56b3c369ea8b958eed5884ddc3d5a7ce74fd\BoardVer4"/>
+			<item value="C:\0803_gb_hsw\jsp팀프로젝트\새 폴더\LEARN-JSP-37be56b3c369ea8b958eed5884ddc3d5a7ce74fd\LEARN-JSP-37be56b3c369ea8b958eed5884ddc3d5a7ce74fd"/>
+			<item value="C:\0803_gb_hsw\jsp팀프로젝트\withpill1111.1"/>
+			<item value="C:\0803_gb_hsw\jsp\MVC2_Pattern-master\MVC2_Pattern-master"/>
+			<item value="C:\0803_gb_hsw\jsp\새 폴더\ums"/>
+			<item value="C:\0803_gb_hsw\jsp\day11-1\dwdw\ums"/>
+			<item value="C:\0803_gb_hsw\jsp\ums"/>
+			<item value="C:\0803_gb_hsw\jsp\ums2\ums"/>
+			<item value="C:\0803_gb_hsw\jsp\board_mvc"/>
+			<item value="C:\0803_gb_hsw\jsp팀프로젝트\workspace\withPill"/>
+			<item value="C:\0803_gb_hsw\jsp팀프로젝트\jsp팀프로젝트\Withpill\새 폴더\withPill"/>
+			<item value="C:\0803_gb_hsw\jsp\새 폴더\board_mvc"/>
+			<item value="C:\0803_gb_hsw\workspace.git\per_study_jsp\day05"/>
+			<item value="C:\0803_gb_hsw\workspace.git\per_study_jsp\day04"/>
+			<item value="C:\0803_gb_hsw\workspace.git\per_study_jsp"/>
 			<item value="C:\0803_gb_hsw\jsp\day06"/>
 			<item value="C:\0803_gb_hsw\jsp\day05"/>
 		</list>

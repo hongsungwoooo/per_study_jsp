@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<!--
+maxActive="20" //최대 커넥션 수
+maxIdle="10"   //미리 만들어둘 기본커낵션 수
+-->
+    <Resource name="jdbc/OracleDB"
+              auth="container"
+              type="javax.sql.DataSource"
+              username="hr"
+              password="1234"
+              driverClassName="oracle.jdbc.driver.OracleDriver"
+              factory="org.apache.commons.dbcp.BasicDataSourceFactory"
+              url="jdbc:oracle:thin:@localhost:1521:xe"
+              maxActive="20"
+              maxIdle="10" />
+</Context>

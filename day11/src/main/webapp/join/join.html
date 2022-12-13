@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../favicon/favicon.ico">
+    <title>맞춤영양제 위드필</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/css/templatemo-woox-travel.css">
+    <link rel="stylesheet" href="../assets/css/owl.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/join.css">
+</head>
+<body>
+  <!-- ★-------join area-------★ -->
+  <div class="join-form join-form-wrap">
+    <a href="../index.html"  class="join-logo"><img src="../assets/images/withpill_blue.png" alt=""></a>
+    <div class="container">
+      <div class="col-lg-12">
+        <form id="join-form" action="#">
+          <div class="row">
+
+            <!-- <div class="join-top">
+              <h4>회원가입</h4>      
+            </div>     -->
+
+            <!-- ★id★ -->
+            <div class="col-lg-12">
+              <label for="Name" class="name-form" >아이디</label>                      
+            </div>
+            <div class="col-lg-8">
+              <a> 
+                <input type="text" name="user_id" class="id" placeholder="아이디를 입력하세요" autocomplete="on" required>
+              </a>              
+            </div>
+            <div class="col-lg-4"><input type="button" value="중복확인" id="check-id" style="text-align:center">
+            </div>
+
+            <!-- ★pw★ -->
+            <div class="col-lg-12">
+              <label for="Name" class="name-form">비밀번호</label>                      
+            </div>
+            <div class="col-lg-12">
+              <input type="password" placeholder="비밀번호" id="password" required>                       
+            </div>
+
+            <div class="col-lg-12">
+              <label for="Name" class="name-form" id="check-pw">비밀번호 확인</label>                      
+            </div>
+            <div class="col-lg-12">
+              <input type="password" placeholder="비밀번호 확인" id="confirm_password" required>
+            </div>  
+
+            <!-- ★이메일 인증★ -->
+            <div class="col-lg-12">
+              <label for="Name" class="name-form">이메일</label>                      
+            </div>
+            <div class="col-lg-8">
+              <a> 
+                <input type="email" placeholder="이메일"autocomplete="on" required>
+              </a>
+            </div>
+            <div class="col-lg-4">    
+              <input type="button" value="인증번호 받기" style="text-align:center">
+            </div>
+                        
+            <!-- ★인증번호 확인★  -->
+            <div class="col-lg-8">
+                <input type="text" placeholder="입력하신 메일로 발송된 인증번호를 입력해 주세요">
+            </div>
+            <div class="col-lg-4">
+              <input type="button" value="인증확인" disabled id="completion" onclick="checkCompletion()" style="text-align:center">
+            </div>
+            
+            <!--  -->
+            <hr/>
+            <!--  -->
+              
+            <div class="col-lg-12">
+              <form id="join-form" name="gs" method="submit" role="search" action="#">
+                <div class="row">
+                  <!-- <div class="col-lg-12">
+                    <h4>추가정보</h4> 
+                  </div> -->
+                  
+                  <div class="col-lg-6"> 
+                    <div>
+                      <fieldset>
+                          <label for="Name" class="form-label">이름</label>
+                          <input type="text" name="Name" class="Name" placeholder="Ex. 홍길동" autocomplete="on" required>
+                      </fieldset>
+                    </div>
+
+                    <div>
+                      <fieldset>
+                        <label for="Number" class="form-label">생년월일</label>
+                        <input type="date" name="date" class="form-label" required>
+                      </fieldset>
+                    </div>    
+                  </div>     
+
+                  <div class="col-lg-6">
+                    <fieldset>
+                        <label for="Number" class="form-label">전화번호</label>
+                        <input type="text" name="Number" class="Number" placeholder="Ex. 01012345678" autocomplete="on" required>
+                        <label for="choosegender" class="form-label">성별</label>
+                        <select name="gender" class="form-select"  id="choosegender" onChange="this.form.click()">
+                            <option selected>성별</option>
+                            <option type="checkbox" name="option1" value="1">남자</option>
+                            <option value="2">여자</option>
+                        </select>
+                    </fieldset>             
+                  </div>
+                </div>    
+              </form>
+            </div>  
+        
+                  <!--  -->
+                  <hr/>
+                  <!--  -->
+
+            
+            
+          </div>     
+        
+            <form id="join-form" name="gs" method="submit" role="search" action="#">
+              
+          
+                <div class="col-lg-12">                        
+                  <fieldset>
+                      <button class="finish-button">회원가입</button>
+                  </fieldset>
+                </div>
+            </form>      
+        </form>
+      </div>
+    </div>
+  </div>    
+  <!-- ★-------join area End-------★ -->
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="../assets/js/isotope.min.js"></script>
+  <script src="../assets/js/owl-carousel.js"></script>
+  <script src="../assets/js/tabs.js"></script>
+  <script src="../assets/js/popup.js"></script>
+  <script src="../assets/js/custom.js"></script>
+
+  <!-- naver login API -->
+  <script src="https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.2.js" charset="utf-8"></script>
+
+  <script>
+    $(".option").click(function(){
+      $(".option").removeClass("active");
+      $(this).addClass("active"); 
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>WoOx Travel Bootstrap 5 Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/css/templatemo-woox-travel.css">
+    <link rel="stylesheet" href="../assets/css/owl.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <style>
+      html{
+	      scroll-behavior: smooth;
+      }
+
+      .progress{
+        height: auto;
+        /* min-height: 60px; */
+      }
+
+      .progress span{
+        color: #282828 !important;
+        opacity: 1;
+        
+      }
+
+      .line{
+        border-bottom: 1px solid #282828;
+        height: 1px;
+      }
+
+      .bmi-span{
+        /* color: black; */
+        padding: 10px 0;
+        font-size:16px;
+        color: #282828 !important;
+        font-weight: 500;
+      }
+
+      .bmi-span.on{
+        background: linear-gradient(to top, #83adc5 50%, transparent 50%);
+      }
+
+      .progress-bar{
+        background-color: #fff !important;
+        width: 25%;
+      }
+
+      .my-info{
+        color: #22B3C1;
+        font-size: 20px;
+      }
+    </style>
+<!--
+
+TemplateMo 580 Woox Travel
+
+https://templatemo.com/tm-580-woox-travel
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+ <!-- ***** Header Area Start ***** -->
+ <div class="header-wrap">
+  <div class="header-cnt">
+    <nav>
+      <div class="logo">
+        <a href="../index.html"><img src="../assets/images/withpill_blue.png" alt="위드필로고"></a>
+      </div>
+      <ul>
+        <li><a href="../join/login.html">로그인</a></li>
+        <li><a href="../survey/survey.html">설문조사</a></li>
+        <li><a href="../service/service.html">고객센터</a></li>
+        <li><a href="../nutrient/nutrient_search.html">스토어</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<!-- ***** Header Area End ***** -->
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section id="section-1" class="survey-result-wrap">
+    <div class="content-slider">
+      <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+
+      <div class="slider">
+        <div id="top-banner-1" class="banner">
+          <div class="banner-inner-wrapper header-text">
+            <div class="main-caption">
+              <h2>설문조사가 끝났어요</h2>
+              <h1><span name="user-name">홍길동</span>님의 결과가 나왔습니다</h1>
+              <!-- 22B3C1 -->
+              <div class="result-button">
+                <a href="#movement">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                </svg>
+              </a>
+              </div>
+            </div>
+            
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="more-info">
+                    <div class="row d-flex justify-content-start">
+                      <div class="col-2">
+                        <h4><span>신장:</span><br><span id="my-height" style="color :#22B3C1; font-size: 20px; font-weight: 700;">180 cm</span></h4>
+                      </div>
+                      <div class="col-2">
+                        <h4><span>몸무게:</span><br><span id="my-weight" style="color :#22B3C1; font-size: 20px; font-weight: 700;">70kg</span></h4>
+                      </div>
+                      <div class="col-2">
+                        <h4><span>체질량지수(BMI):</span><br><span id="my-bmi" style="color :#22B3C1; font-size: 20px; font-weight: 700;">21.60</span></h4>
+                      </div>
+                      <div class="col-6 align-self-center text-start">
+                        <div class="w-100">
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar">
+                              <span class="bmi-span">저체중</span>
+                              <span class="line"></span>
+                              <span>~18.5</span>
+                            </div>
+                            <div class="progress-bar" role="progressbar">
+                              <span class="bmi-span on">정상</span>
+                              <span class="line"></span>
+                              <span>~24.9</span>
+                            </div>
+                            <div class="progress-bar" role="progressbar">
+                              <span class="bmi-span">과체중</span>
+                              <span class="line"></span>
+                              <span>~29.9</span>
+                            </div>
+                            <div class="progress-bar" role="progressbar">
+                              <span class="bmi-span">비만</span>
+                              <span class="line"></span>
+                              <span>~34.9</span>
+                            </div>
+                            <div class="progress-bar" role="progressbar">
+                              <span class="bmi-span">고도비만</span>
+                              <span class="line"></span>
+                              <span>35~</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="movement"></div>
+  </div>
+</section>
+  <!-- ***** Main Banner Area End ***** -->
+  
+  <div class="visit-country necessary-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading text-center">
+            <h1>
+              <span name="user-name" class="pe-none">홍길동</span>
+              <span class="pe-none"> 님이 필요한 영양소는?</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="items">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="item">
+                  <div class="row row-shadow">
+                    <div class="col-lg-3 align-self-center">
+                      <img src="../assets/images/pill/오메가3-3.PNG" alt="">
+                    </div>
+                    <div class="col-lg-9" style="height:380px;">
+                      <div class="h-100 p-3 mb-5">
+                        <div class="right-content p-5 h-100">
+                          <div class="d-flex justify-content-between mb-3">
+                            <h2>오메가3</h2>
+                            <button type="button" class="btn opacity-75">상세보기</button>              
+                          </div>
+                          <h3 class="mb-2"><span class="dot">·</span> 효능</h3>
+                          <h3 class="mb-2"><span class="dot">·</span> 효능2</h3>
+                          <h3 class="mb-2"><span class="dot">·</span> 효능3</h3>
+                          <div class="mt-5 d-flex justify-content-between">
+                            <div>
+                              <i class="fa fa-user"></i>
+                              <span class="d-inline" id="user-percentage">
+                                비슷한 연령대의 남성들중 5천명의 추천을 받았어요
+                              </span>
+                            </div>
+                            <div>
+                              <i class="fa fa-globe"></i>
+                              <span class="d-inline" id="user-percent">
+                                전체 설문조사에서 30%의 추천을 받았어요
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="item">
+                  <div class="row row-shadow">
+                    <div class="col-lg-3 align-self-center">
+                      <img src="../assets/images/pill/루테인-1.PNG" alt="">
+                    </div>
+                    <div class="col-lg-9" style="height:380px;">
+                      <div class="h-100 p-3 mb-5">
+                        <div class="right-content p-5 h-100">
+                          <div class="d-flex justify-content-between mb-3">
+                            <h2>루테인</h2>
+                            <button type="button" class="btn opacity-75">상세보기</button>              
+                          </div>
+                          <h3 class="mb-2"><span class="dot">·</span> 효능</h3>
+                          <h3 class="mb-2"><span class="dot">·</span> 효능2</h3>
+                          <h3 class="mb-2"><span class="dot">·</span> 효능3</h3>
+                          <div class="mt-5 d-flex justify-content-between">
+                            <div>
+                              <i class="fa fa-user"></i>
+                              <span class="d-inline" id="user-percentage">
+                                비슷한 연령대의 남성들중 5천명의 추천을 받았어요
+                              </span>
+                            </div>
+                            <div>
+                              <i class="fa fa-globe"></i>
+                              <span class="d-inline" id="user-percent">
+                                전체 설문조사에서 30%의 추천을 받았어요
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="item">
+                  <div class="row row-shadow">
+                    <div class="col-lg-3 align-self-center">
+                      <img src="../assets/images/pill/히알루론산-2.PNG" alt="">
+                    </div>
+                    <div class="col-lg-9" style="height:380px;">
+                      <div class="h-100 p-3 mb-5">
+                        <div class="right-content p-5 h-100">
+                          <div class="d-flex justify-content-between mb-3">
+                            <h2>히알루론산 스피루리나</h2>
+                            <button type="button" class="btn opacity-75">상세보기</button>              
+                          </div>
+                          <h3 class="mb-2"><span class="dot">·</span> 효능</h3>
+                          <h3 class="mb-2"><span class="dot">·</span> 효능2</h3>
+                          <h3 class="mb-2"><span class="dot">·</span> 효능3</h3>
+                          <div class="mt-5 d-flex justify-content-between">
+                            <div>
+                              <i class="fa fa-user"></i>
+                              <span class="d-inline" id="user-percentage">
+                                비슷한 연령대의 남성들중 5천명의 추천을 받았어요
+                              </span>
+                            </div>
+                            <div>
+                              <i class="fa fa-globe"></i>
+                              <span class="d-inline" id="user-percent">
+                                전체 설문조사에서 30%의 추천을 받았어요
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>         
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2036 <a href="#">WoOx Travel</a> Company. All rights reserved. 
+          <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a> Distribution: <a href="https://themewagon.com target="_blank" >ThemeWagon</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="../assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="../assets/js/tabs.js"></script>
+  <script src="../assets/js/popup.js"></script>
+  <script src="../assets/js/custom.js"></script>
+
+  <script>
+    function bannerSwitcher() {
+      next = $('.sec-1-input').filter(':checked').next('.sec-1-input');
+      if (next.length) next.prop('checked', true);
+      else $('.sec-1-input').first().prop('checked', true);
+    }
+
+    var bannerTimer = setInterval(bannerSwitcher, 5000);
+
+    $('nav .controls label').click(function() {
+      clearInterval(bannerTimer);
+      bannerTimer = setInterval(bannerSwitcher, 5000)
+    });
+  </script>
+
+  </body>
+
+</html>

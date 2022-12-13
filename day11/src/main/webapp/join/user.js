@@ -12,7 +12,7 @@ function sendit(){
 	
 	if(usertxt == "중복된 아이디입니다."){
 		alert("중복된 아이디입니다. 아이디를 확인해주세요");
-		userid.focus();
+		userId.focus();
 		return false;		
 	}
 		 

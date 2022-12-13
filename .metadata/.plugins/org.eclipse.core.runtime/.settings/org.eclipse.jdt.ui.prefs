@@ -1,7 +1,5 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.withpill.web.account.dao.AccountDao"><rhs name\="com.withpill.web.account.dao.AccountDao"/></lhs><lhs name\="com.withpill.api.action.Action"><rhs name\="com.withpill.web.account.AccountCheckIdOk"/></lhs><lhs name\="com.withpill.web.account.dto.FindDto"><rhs name\="com.withpill.web.account.dto.FindDto"/></lhs><lhs name\="com.withpill.web.account.dto.AccountDto"><rhs name\="com.withpill.web.account.dto.AccountDto"/></lhs></history>
 content_assist_number_of_computers=17
-content_assist_proposals_background=255,255,255
-content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true

@@ -1,4 +1,4 @@
-package com.koreait.web.beans;
+package com.withpill.web.beans;
 
 public class UserBean {
 	private String userid;

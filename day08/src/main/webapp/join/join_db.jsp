@@ -1,4 +1,4 @@
-<%@page import="com.koreait.web.dao.UserDAO"%>
+<%@page import="com.withpill.web.dao.UserDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:useBean id="user" class="com.koreait.web.beans.UserBean" />
+	<jsp:useBean id="user" class="com.withpill.web.beans.UserBean" />
 	
 	<!-- *로 처리하면 한번에 해결 가능 -->
 <%-- 	<jsp:setProperty property="userid" name="user"/> --%>

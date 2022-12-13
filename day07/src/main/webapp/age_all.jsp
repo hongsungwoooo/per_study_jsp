@@ -1,4 +1,4 @@
-<%@page import="com.koreait.web.beans.MemberBean"%>
+<%@page import="com.withpill.web.beans.MemberBean"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:useBean id="mdao" class="com.koreait.web.dao.MemberDAO"/>
+	<jsp:useBean id="mdao" class="com.withpill.web.dao.MemberDAO"/>
 	<%
 		// db conn
 		// db select
