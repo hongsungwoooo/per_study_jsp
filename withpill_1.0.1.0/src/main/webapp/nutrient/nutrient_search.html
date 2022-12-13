@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>WoOx Travel - Special Deals</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/css/templatemo-woox-travel.css">
+    <link rel="stylesheet" href="../assets/css/owl.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/service.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+<!--
+
+TemplateMo 580 Woox Travel
+
+https://templatemo.com/tm-580-woox-travel
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <div class="header-wrap">
+    <div class="header-cnt">
+      <nav>
+        <div class="logo">
+          <a href="../index.html"><img src="../assets/images/withpill_blue.png" alt="위드필로고"></a>
+        </div>
+        <ul>
+          <li><a href="../join/login.html">로그인</a></li>
+          <li><a href="../survey/survey.html">설문조사</a></li>
+          <li><a href="../service/service.html">고객센터</a></li>
+          <li><a href="nutrient_search.html">스토어</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="page-heading nutrient_search-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 style="color:white">위드필! 비타민을 추천해줘!</h1>
+          <h2>비타민</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="search-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <form id="search-form" name="gs" method="submit" role="search" action="#">
+            <div class="row">
+              <div class="col-lg-2">
+                <h4>비타민 상세검색</h4>
+              </div>
+              <div class="col-lg-4">
+                  <fieldset>
+                      <select name="Symptom" class="form-select" aria-label="Default select example" id="choosesymptom" onChange="categoryChange(this)">
+                          <option selected>증상</option>
+                          <option type="checkbox" name="option1" value="liver">간</option>
+                          <option value="eye">눈</option>
+                          <option value="immunity">면역</option>
+                          <option value="hair">모발</option>
+                          <option value="bonejoint">뼈관절</option>
+                          <option value="digestion">소화/장</option>
+                          <option value="fatigue">피로감</option>
+                          <option value="skin">피부</option>
+                          <option value="bloodcirculation">혈액순환</option>
+                      </select>
+                  </fieldset>
+              </div>
+              <div class="col-lg-4">
+                  <fieldset>
+                      <select name="Vitamin" class="form-select" aria-label="Default select example" id="choosevitamin" onChange="this.form.click()">
+                          <option selected>비타민</option>
+                      </select>
+                  </fieldset>
+              </div>
+              <div class="col-lg-2">                        
+                  <fieldset>
+                      <button class="border-button">검색하기</button>
+                  </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="amazing-deals">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading text-center">
+            <!-- <h1 style="color:aqua">비타민 상세정보 & 제품</h1> -->
+            <p></p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/l아르가닌.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">*어떤 사람한테 추천</span>
+                  <h4>L아르가닌</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">몇 개 처방</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">얼마나 간격을 두고 처방</span>
+                    </div>
+                  </div>
+                  <p>고혈압 개선, 면역력 강화</p>
+                  <div class="main-button">
+                    <a href="nutrient_arginine.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/단백질.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">*Today & Tomorrow Only</span>
+                  <h4>단백질</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/루테인.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>루테인</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/마그네슘.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">*Offer Until 24th March</span>
+                  <h4>마그네슘</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/밀크씨슬.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>밀크씨슬</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/비타민A.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>비타민A</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/비타민B.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>비타민B</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/비타민C.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>비타민C</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/비타민D.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>비타민D</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/비타민E.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>비타민E</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/식이섬유.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>식이섬유</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/아연.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>아연</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/오메가3.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>오메가3</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/철분.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>철분</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/칼슘.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>칼슘</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/코엔자임Q10.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>코엔자임Q10</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/콜라겐.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>콜라겐</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/프로바이오틱스.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>프로바이오틱스</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/효소.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <span class="info">**Undefined</span>
+                  <h4>효소</h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-regular fa-capsules"></i>
+                      <span class="list">20000</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">뭐 넣지?</span>
+                    </div>
+                  </div>
+                  <p>간결 내용</p>
+                  <div class="main-button">
+                    <a href="reservation.html">더 자세히 보기</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <ul class="page-numbers">
+            <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
+            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2036 <a href="#">WoOx Travel</a> Company. All rights reserved. 
+          <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a> Distribution: <a href="https://themewagon.com target="_blank" >ThemeWagon</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="../assets/js/isotope.min.js"></script>
+  <script src="../assets/js/owl-carousel.js"></script>
+  <script src="../assets/js/tabs.js"></script>
+  <script src="../assets/js/popup.js"></script>
+  <script src="../assets/js/custom.js"></script>
+
+  <script>
+    $(".option").click(function(){
+      $(".option").removeClass("active");
+      $(this).addClass("active"); 
+    });
+
+    function categoryChange(e){
+      
+      var choosevitamin_liver = ["밀크씨슬"];
+      var choosevitamin_eye = ["비타민A", "루테인", "오메가3"];
+      var choosevitamin_immunity = ["비타민C", "비타민D", "아연", "프로바이오틱스"];
+      var choosevitamin_hair = ["비타민B", "비타민D", "단백질", "철분"];
+      var choosevitamin_bonejoint = ["비타민D", "단백질", "마그네슘", "철분", "칼슘"];
+      var choosevitamin_digestion = ["식이섬유", "프로바이오틱스", "효소"];
+      var choosevitamin_fatigue = ["L아르가닌", "비타민B", "오메가3", "코엔자임Q10"];
+      var choosevitamin_skin = ["비타민C", "비타민D", "오메가3", "콜라겐"];
+      var choosevitamin_bloodcirculation = ["L아르가닌", "비타민B", "비타민E", "오메가3", "코엔자임Q10"];
+      var target = document.getElementById("choosevitamin");
+
+      if(e.value == "liver") var i = choosevitamin_liver;
+      else if(e.value == "eye") var i = choosevitamin_eye;
+      else if(e.value == "immunity") var i = choosevitamin_immunity;
+      else if(e.value == "hair") var i = choosevitamin_hair;
+      else if(e.value == "bonejoint") var i = choosevitamin_bonejoint;
+      else if(e.value == "digestion") var i = choosevitamin_digestion;
+      else if(e.value == "fatigue") var i = choosevitamin_fatigue;
+      else if(e.value == "skin") var i = choosevitamin_skin;
+      else if(e.value == "bloodcirculation") var i = choosevitamin_bloodcirculation;
+
+      target.options.length = 0;
+
+      for(x in i){
+        var opt = document.createElement("option");
+        opt.value = i[x];
+        opt.innerHTML = i[x];
+        target.appendChild(opt);
+      }
+    }
+  </script>
+
+  </body>
+
+</html>

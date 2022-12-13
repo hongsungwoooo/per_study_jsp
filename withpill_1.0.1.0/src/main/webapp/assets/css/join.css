@@ -1,0 +1,539 @@
+/* 
+------------------------------
+          join-page
+------------------------------
+*/
+
+  .join-form-wrap {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+  
+  .join-logo img{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  
+  .join-form #join-form h4 {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 50px;
+    color: #22b3c1;
+    font-style: normal;
+    color: #22b3c1;
+  }
+  
+  .join-form  {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  .join-form #join-form {
+    padding: 20px 80px 0 80px;
+  
+  
+  }
+  
+  .join-form #join-form label {
+   
+    font-size: 15px;
+    color: #afafaf;
+  }
+  
+  .join-form #join-form input,
+  .join-form #join-form select {
+    font-size: 14px;
+      text-align: left;
+      color: #afafaf;
+      border: 1px solid #dddfe2;
+      padding: 12px 30px;
+      width: 100%;
+      display: inline-block;
+      font-weight: 500;
+      text-transform: none;
+      letter-spacing: 0.5px;
+      transition: all .3s;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 10px;
+  }
+  
+  .join-form #join-form input:focus {
+    outline: none !important;
+    border-radius: 5px;
+    border-color: #22b3c1;
+    box-shadow: 0 0 0 2px #63c0c8;
+    caret-color: #22b3c1;
+  }
+  
+  
+  .join-form #join-formnav {
+    font-size: 14px;
+    padding: 12px 30px;
+    color: #afafaf;
+    text-align: center;
+  }
+  
+  
+  .join-form #join-form button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #22b3c1;
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    /* margin: 10px; */
+  }
+  
+  .join-form #join-form button:hover {
+    opacity: 0.8;
+  }
+  
+  .join-form #join-form hr {
+    margin-top:50px;
+    margin-bottom:50px;
+    
+  }
+  
+  
+  
+  @media (max-width: 992px) {
+  
+    .join-form #join-form {
+      padding: 45px 30px;
+    }
+  
+  }
+
+
+/* 
+------------------------------
+login-page css
+------------------------------
+*/
+
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .login-form .logo{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  
+  .login-form span{
+    padding: 0 20px;
+  }
+  
+  
+  .login-form .id, .login-form .pw{
+    border-radius: 5px;
+    color: #282828;
+  }
+  
+  .login-form nav a{
+    color: #888;
+  }
+  
+  .login-form nav a:hover{
+    text-decoration: underline;
+    color: #22b3c1;
+  }
+  
+  .login-form .main-button{
+    margin: 20px 0;
+  }
+  
+  
+  .login-form .id:focus, .login-form .pw:focus {
+    outline: none !important;
+    border-radius: 5px;
+    border-color: #22b3c1;
+    box-shadow: 0 0 0 2px #63c0c8;
+    caret-color: #22b3c1;
+  }
+  
+  
+  
+  .login-form #login-form h4 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-style: normal;
+    color: #22b3c1;
+  }
+  
+  .login-form #login-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 10px;
+    /* background-color: #f9f9f9; */
+  
+  }
+  
+  .login-form #login-form label {
+   
+    font-size: 15px;
+    /* padding: 10px 5px 0px 12px; */
+    color: #afafaf;
+  }
+  
+  .login-form #login-form input,
+  .login-form #login-form select {
+    font-size: 14px;
+    text-align: left;
+    color: #afafaf;
+    border: 1px solid #dddfe2;
+    padding: 12px 30px;
+    width: 100%;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  
+  .login-form #login-form nav {
+    font-size: 14px;
+    padding: 12px 30px;
+    color: #afafaf;
+    text-align: center;
+  }
+  
+  
+  .login-form #login-form button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #22b3c1;
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  
+  .login-form #login-form #login-button{
+  font-size: 14px;
+    color: #fff;
+    background-color: #22b3c1;
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  .social-btns-wrap{
+    
+  }
+  
+  .social-btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-btns button{
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0 !important;
+    background-color: #e9e9e9 !important;
+    border: 1px solid #e9e9e9 !important;
+    /* border-radius: 100% !important; */
+  }
+  
+  .social-btns button svg{
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+  
+  .login-form #login-form button:hover {
+    opacity: 0.8;
+  }
+  
+  .login-form #login-form hr {
+    margin-top:30px;
+    margin-bottom:30px;
+    
+  }
+  
+  
+  
+  @media (max-width: 992px) {
+  
+    .login-form #login-form {
+      padding: 45px 30px;
+    }
+  
+  }
+  
+  .social-sign-in__title h3{
+  
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    color: #22b3c1;
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+  
+
+
+
+/* 
+------------------------------
+          terms-page
+------------------------------
+*/
+
+.terms-form  {
+    padding: 100px 300px ;
+    background-color: #f9f9f9;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .terms-form h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #22b3c1;
+    font-style: normal;
+    color: #22b3c1;
+  }
+  
+  .terms-form #row {
+    padding: 100px 300px 300px 300px;
+    background-color: #f9f9f9;
+    
+  }
+  
+  .terms-form  button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #22b3c1;
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 250px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+  }
+
+  .terms-form #panel-heading{
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: #22b3c1;
+  }
+
+  .terms-form .logo{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+
+
+/* 
+------------------------------
+          findpw-page
+------------------------------
+*/
+
+.findpw-form-wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .findpw-logo img{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  
+  .findpw-form #findpw-form h4 {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 50px;
+    color: #22b3c1;
+    font-style: normal;
+    color: #22b3c1;
+  }
+  
+  .findpw-form  {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  .findpw-form #findpw-form {
+    padding: 20px 80px 0 80px;
+  
+  
+  }
+  
+  .findpw-form #findpw-form label {
+   
+    font-size: 15px;
+    color: #afafaf;
+  }
+  
+  .findpw-form #findpw-form input,
+  .findpw-form #findpw-form select {
+    font-size: 14px;
+      text-align: left;
+      color: #afafaf;
+      border: 1px solid #dddfe2;
+      padding: 12px 30px;
+      width: 100%;
+      display: inline-block;
+      font-weight: 500;
+      text-transform: none;
+      letter-spacing: 0.5px;
+      transition: all .3s;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 10px;
+  }
+  
+  .findpw-form #findpw-form input:focus {
+    outline: none !important;
+    border-radius: 5px;
+    border-color: #22b3c1;
+    box-shadow: 0 0 0 2px #63c0c8;
+    caret-color: #22b3c1;
+  }
+  
+  
+  .findpw-form #findpw-formnav {
+    font-size: 14px;
+    padding: 12px 30px;
+    color: #afafaf;
+    text-align: center;
+  }
+  
+  
+  .findpw-form #findpw-form button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #22b3c1;
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+   
+    margin-top: 10px;
+  }
+  
+  .findpw-form #findpw-form button:hover {
+    opacity: 0.8;
+  }
+  
+  .findpw-form #findpw-form hr {
+    margin-top:50px;
+    margin-bottom:50px;
+    
+  }
+  
+  .findpw-form #findpw-form img{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  
+  .findpw-form #findpw-form h3{
+    color: #2a2a2a;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 40px;
+  }
+  .findpw-form #findpw-form h2{
+    font-size: 16px;
+    padding-bottom: 15px;
+    text-align: left;
+    line-height: 30px;
+    color: #afafaf;
+  
+  }
+  
+  
+  @media (max-width: 992px) {
+  
+    .findpw-form #findpw-form {
+      padding: 45px 30px;
+    }
+  
+  }
+
+
+

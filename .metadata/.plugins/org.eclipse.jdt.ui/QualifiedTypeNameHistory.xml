@@ -3,6 +3,7 @@
     <fullyQualifiedTypeName name="javax.servlet.HttpConstraintElement"/>
     <fullyQualifiedTypeName name="javax.servlet.Filter"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebFilter"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="com.koreait.action.ActionForward"/>
     <fullyQualifiedTypeName name="com.withpill.web.account.LoginAction"/>
     <fullyQualifiedTypeName name="com.withpill.web.account.AccountCheckIdAcction"/>
@@ -43,4 +44,13 @@
     <fullyQualifiedTypeName name="com.koreait.app.user.dao.UserDAO"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="com.withpill.web.account.dto.AccountDto"/>
+=======
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="com.koreait.action.ActionForward"/>
+>>>>>>> 5d275dffffccfaf86eba6b1da2d4082723e2e176
 </qualifiedTypeNameHistroy>

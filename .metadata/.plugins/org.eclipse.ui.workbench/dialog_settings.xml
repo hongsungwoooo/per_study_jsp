@@ -8,8 +8,12 @@
 		</list>
 	</section>
 	<section name="ImportExportAction">
+<<<<<<< HEAD
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
 		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.FileSystem"/>
+=======
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+>>>>>>> 5d275dffffccfaf86eba6b1da2d4082723e2e176
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.jst.ejb.ui"/>
@@ -37,6 +41,15 @@
 		<item key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID" value="false"/>
 		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
 			<item value="C:\0803_gb_hsw"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\0803_gb_hsw\jsp팀프로젝트\jsp팀프로젝트\withpilll-1.0.2"/>
+			<item value="C:\0803_gb_hsw\jsp팀프로젝트\jsp팀프로젝트\withpilll-1.0.1\join"/>
+			<item value="C:\0803_gb_hsw\jsp팀프로젝트\jsp팀프로젝트\withpilll-1.0.1"/>
 		</list>
 	</section>
 </section>

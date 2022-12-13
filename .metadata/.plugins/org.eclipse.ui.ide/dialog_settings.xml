@@ -13,6 +13,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+<<<<<<< HEAD
 			<item value="C:\0803_gb_hsw\jsp팀프로젝트\1117최종\withPill_first4"/>
 			<item value="C:\0803_gb_hsw\jsp팀프로젝트\1115"/>
 			<item value="C:\0803_gb_hsw\jsp팀프로젝트\새 폴더\LEARN-JSP-37be56b3c369ea8b958eed5884ddc3d5a7ce74fd\LEARN-JSP-37be56b3c369ea8b958eed5884ddc3d5a7ce74fd\BoardVer4"/>
@@ -27,6 +28,11 @@
 			<item value="C:\0803_gb_hsw\jsp팀프로젝트\workspace\withPill"/>
 			<item value="C:\0803_gb_hsw\jsp팀프로젝트\jsp팀프로젝트\Withpill\새 폴더\withPill"/>
 			<item value="C:\0803_gb_hsw\jsp\새 폴더\board_mvc"/>
+=======
+			<item value="C:\0803_gb_hsw\jsp팀프로젝트\jsp팀프로젝트\Withpill\새 폴더\withPill"/>
+			<item value="C:\0803_gb_hsw\jsp\새 폴더\board_mvc"/>
+			<item value="C:\0803_gb_hsw\jsp\board_mvc"/>
+>>>>>>> 5d275dffffccfaf86eba6b1da2d4082723e2e176
 			<item value="C:\0803_gb_hsw\workspace.git\per_study_jsp\day05"/>
 			<item value="C:\0803_gb_hsw\workspace.git\per_study_jsp\day04"/>
 			<item value="C:\0803_gb_hsw\workspace.git\per_study_jsp"/>
